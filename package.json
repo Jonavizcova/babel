@@ -42,7 +42,7 @@
     "graceful-fs": "^4.1.15",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-filter": "^5.1.0",
+    "gulp-filter": "^6.0.0",
     "gulp-newer": "^1.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
