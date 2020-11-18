@@ -68,7 +68,7 @@
     "warnings-to-errors-webpack-plugin": "^2.0.0",
     "webpack": "^3.4.1",
     "webpack-dependency-suite": "^2.4.4",
-    "webpack-stream": "^4.0.0"
+    "webpack-stream": "^6.1.1"
   },
   "resolutions": {
     "@lerna/**/@lerna/collect-updates": "https://github.com/nicolo-ribaudo/lerna.git#babel-collect-updates"
