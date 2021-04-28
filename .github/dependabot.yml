@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 5.13.0
+    - 5.18.0
+    - 5.19.0
+    - 5.21.2
+    - 5.24.2
+    - 5.24.4
+    - 5.30.0
+    - 5.32.0
+  - dependency-name: electron-to-chromium
+    versions:
+    - 1.3.632
+    - 1.3.666
+    - 1.3.681
+    - 1.3.690
+  - dependency-name: webpack-stream
+    versions:
+    - 6.1.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  - dependency-name: slash
+    versions:
+    - 3.0.0
